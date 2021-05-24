@@ -5,7 +5,7 @@
 alert('Welcome to my site! let us play a fast quizzing game to know me better.');
 
 let userName = prompt('Please type your name');
-alert('welcome to my website' +userName );
+alert('welcome to my website ' +userName );
 
 let name = prompt('Is my full name "Lamis Ghanayem"?').toLowerCase();
 
@@ -75,4 +75,4 @@ else {
   alert('Your answer should be Yes or No');
 }
 
-alert ('We are finished! Thanks for your particippation in this game' + userName);
+alert ('We are finished! Thanks for your particippation in this game ' + userName);

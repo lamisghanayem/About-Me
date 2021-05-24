@@ -1,0 +1,45 @@
+
+header ul {
+    list-style-type: none;
+     background-color: lightpink;
+    width: 100%;
+     }
+    
+     ul li{display: inline;
+    margin-left: 30px;
+    }
+    
+    ul li a {text-decoration: none;
+    color: dimgray;
+    border: solid dimgray;
+    padding: 5px 15px;
+    }
+    
+    ul li a:hover{
+      color:#222831;
+      background-color: lightpink;
+    }
+    h4  {
+    font-family: cursive;
+    }
+    p {font-family: cursive;
+    font-size: 20px;
+    text-align: left;
+}
+ 
+
+    footer{color:  #222831;
+        font-size: 15px;
+        text-align: center;
+        position: fixed;
+        padding: 0px 0px 2px 0px;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        background: lightpink;}
+        
+
+#img{
+    text-align: center;
+}
+  
