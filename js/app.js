@@ -20,11 +20,11 @@ else {
 
 let country = prompt ('Do I come from Jordan"?').toLowerCase();
 if ( country === 'yes' || country === 'y'){
-  alert ('Correct! Let us continue.');
+  alert ('wrong answer.');
 }
 else if ( country === 'no' || country === 'n')
 {
-  alert ('wrong answer.');
+  alert ('Correct! Let us continue.');
 }
 else {
   alert('Your answer should be Yes or No');
@@ -32,11 +32,11 @@ else {
 
 let degree = prompt ('Do I hold a bachelor degree in physics?').toLowerCase();
 if ( degree === 'yes' || degree === 'y'){
-  alert ('Correct! Let us continue.');
+  alert ('wrong answer.');
 }
 else if ( degree === 'no' || degree === 'n')
 {
-  alert ('wrong answer.');
+  alert ('Correct! Let us continue.');
 }
 else {
   alert('Your answer should be Yes or No');
@@ -54,6 +54,7 @@ else if ( experience === 'no' || experience === 'n')
 else {
   alert('Your answer should be Yes or No');
 }
+
 let university = prompt ('Did I graduate from the Lebanese International University?').toLowerCase();
 if ( university === 'yes' || university === 'y'){
   alert ('Correct! Let us continue.');
