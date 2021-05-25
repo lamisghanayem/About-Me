@@ -1,7 +1,7 @@
 /* eslint-disable no-redeclare */
 /* eslint-disable no-global-assign */
 'use strict';
-
+/*
 alert('Welcome to my site! let us play a fast quizzing game to know me better.');
 
 let userName = prompt('Please type your name');
@@ -75,4 +75,44 @@ else {
   alert('Your answer should be Yes or No');
 }
 
-alert ('We are finished! Thanks for your particippation in this game ' + userName);
+
+
+// num should be 12
+for (let i=0; i<4; i++){
+  let num = prompt('Now try to guess any number that comes to your mind');
+  if (num < 7){
+    alert('The number you inserted is too low, try again');
+  }
+  else if (num > 16){
+    alert('The number you inserted is too high, try again');}
+  else if (num === '12'){
+    alert('Correct!');
+    break;}
+  else {
+    alert( 'wrong, try again');
+  }
+}
+alert ('The correct number is 12'); */
+
+let primeArray = ['2', '3', '5', '7', '11'];
+
+lamis:
+for (let i= 0; i<6; i++){
+  let answer = prompt('Give an example of prime numbers');
+  for (let i2=0; i2<= primeArray.length; i2++){
+    if (answer === primeArray[i2]){
+      alert('Correct!');
+      break lamis;
+    }
+    //else{ alert ('Wrong! try again');
+
+   // }
+
+  }
+
+}
+alert('correct numbers are ' + primeArray);
+
+
+
+//alert ('We are finished! Thanks for your particippation in this game ' + userName);
