@@ -85,19 +85,23 @@ else {
 
 
 // num should be 12
+let num = null;
 for (let i=0; i<4; i++){
   let num = prompt('Now try to guess any number that comes to your mind');
-  if (num <= 9){
-    alert('The number you inserted is too low, try again');
-  }
-  else if (num >=15 ){
-    alert('The number you inserted is too high, try again');}
-  else if (num === '12'){
+  num = Number (num); //in the requirement it says input should be numeric so we need to change it using number.
+  if (num === 12){
     alert('Correct!');
     score++;
     break;}
+  else if (num <= 11){
+    alert('The number is too low, try again');
+  }
+  else if (num >=13 ){
+    alert('The number is too high, try again');}
+  if (i === 4){
+    alert ('The correct number is 12');
+  }
 }
-alert ('The correct number is 12');
 
 let primeArray = ['2', '3', '5', '7', '11'];
 firstFor:
@@ -108,6 +112,8 @@ for (let i= 0; i<6; i++){
       alert('Correct!');
       score++;
       break firstFor;
+      //i=30 it's noway to have 30 i attempts so it will break instead of doing break for firstFor.
+      //break
     }
     //else{ alert ('Wrong! try again');}
   }
