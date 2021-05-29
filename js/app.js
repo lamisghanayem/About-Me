@@ -2,7 +2,7 @@
 /* eslint-disable no-global-assign */
 'use strict';
 
-/*alert('Welcome to my site! let us play a fast quizzing game to know me better.');
+alert('Welcome to my site! let us play a fast quizzing game to know me better.');
 
 let userName = prompt('Please type your name');
 alert('welcome to my website ' + userName );
@@ -15,7 +15,6 @@ function firstQue(){
 
 
   if ( name === 'yes' || name === 'y'){
-  //console.log('Correct! Let us continue.');
     alert ('Correct! Let us continue.');
     score++;
 
@@ -35,7 +34,6 @@ function secondQue(){
   }
   else if ( country === 'no' || country === 'n')
   {
-  //console.log('Correct! Let us continue.');
     alert ('Correct! Let us continue.');
     score++;
   }
@@ -50,7 +48,6 @@ function thirdQue(){
   }
   else if ( degree === 'no' || degree === 'n')
   {
-  //console.log('Correct! Let us continue.');
     alert ('Correct! Let us continue.');
     score++;
   }
@@ -62,7 +59,6 @@ function thirdQue(){
 function fourthQue(){
   let experience = prompt ('Do I have work experience in my major?').toLowerCase();
   if ( experience === 'yes' || experience === 'y'){
-  //console.log('Correct! Let us continue.');
     alert ('Correct! Let us continue.');
     score++;
   }
@@ -78,7 +74,6 @@ function fourthQue(){
 function fifthQue(){
   let university = prompt ('Did I graduate from the Lebanese International University?').toLowerCase();
   if ( university === 'yes' || university === 'y'){
-  //console.log('Correct! Let us continue.');
     alert ('Correct!');
     score++;
   }
@@ -92,7 +87,6 @@ function fifthQue(){
 }
 
 
-// num should be 12
 function guessNum(){
   let num = null;
   for (let i=0; i<4; i++){
@@ -145,4 +139,4 @@ primeNum();
 alert ('Your total score is ' +score);
 
 
-alert ('We are finished! Thanks for your participation in this game ' + userName);*/
+alert ('We are finished! Thanks for your participation in this game ' + userName);
