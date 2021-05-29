@@ -2,7 +2,7 @@
 /* eslint-disable no-global-assign */
 'use strict';
 
-alert('Welcome to my site! let us play a fast quizzing game to know me better.');
+/*alert('Welcome to my site! let us play a fast quizzing game to know me better.');
 
 let userName = prompt('Please type your name');
 alert('welcome to my website ' + userName );
@@ -145,4 +145,4 @@ primeNum();
 alert ('Your total score is ' +score);
 
 
-alert ('We are finished! Thanks for your participation in this game ' + userName);
+alert ('We are finished! Thanks for your participation in this game ' + userName);*/

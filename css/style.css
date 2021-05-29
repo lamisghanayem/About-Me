@@ -3,6 +3,7 @@ header ul {
     list-style-type: none;
      background-color: lightpink;
     width: 100%;
+    position: fixed;
      }
     
      ul li{display: inline;
@@ -23,23 +24,25 @@ header ul {
     font-family: cursive;
     }
     p {font-family: cursive;
-    font-size: 20px;
+    font-size: 17px;
     text-align: left;
 }
  
 
-    footer{color:  #222831;
+    footer{color: rgb(34, 40, 49);
         font-size: 15px;
         text-align: center;
-        position: fixed;
-        padding: 0px 0px 2px 0px;
-        bottom: 0;
+        padding: 1px 0px;
+        background: lightpink;
+        display: inline-block;
         width: 100%;
-        height: 40px;
-        background: lightpink;}
+    }
         
 
-#img{
+.homeImage{
     text-align: center;
 }
+
+.goals{background-color: #E0E0E0;}
+
   
